@@ -22,7 +22,7 @@ const orgSchema = new mongoose.Schema(
         contact: {
             type: Number,
             trim: true,
-            required: true,
+            required: false,
             unique: false
         },
         vision: {
