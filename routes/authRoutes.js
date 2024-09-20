@@ -13,8 +13,6 @@ router.post(
         check("name", "Name must be 3+ chars long").isLength({ min: 3 }),
         check("email", "Email is required not").isEmail(),
         check("password", "Password must contain 8+ chars").isLength({ min: 8 }),
-        check("vision", "vision must be 15+ chars long").isLength({ min: 5 }),
-        check("mission", "mission must be 15+ chars long").isLength({ min: 5 }),
         check("region", "Region must contain 3+ chars").isLength({ min: 3 })
     ],
     signup // Call the signup function from the authController
