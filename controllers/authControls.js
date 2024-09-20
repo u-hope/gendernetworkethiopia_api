@@ -22,7 +22,7 @@ exports.signup = (req, res) => {
                 name: org.name,
                 email: org.email,
                 vision: org.vision,
-                mission:org.mission,
+                mission:org.intervention,
                 contact: org.contact,
                 region: org.region,
                 orgtype: org.orgtype
